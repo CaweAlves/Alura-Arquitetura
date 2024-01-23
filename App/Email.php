@@ -16,7 +16,7 @@ class Email implements Stringable
         $this->endereco = $endereco;
     }
 
-    public function __toString()
+    public function __toString(): string 
     {
         return $this->endereco;
     }
